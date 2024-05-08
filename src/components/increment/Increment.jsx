@@ -10,7 +10,7 @@ function Increment(props) {
       <button
         onClick={() => dispatch(inc(+props?.text == "" ? 1 : +props.text))}
       >
-        increment
+        +
       </button>
     </div>
   );

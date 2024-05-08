@@ -11,7 +11,7 @@ function Decrement(props) {
         disabled={count <= 0}
         onClick={() => dispatch(dec(+props?.text == "" ? 1 : +props.text))}
       >
-        decrement
+        -
       </button>
     </div>
   );
